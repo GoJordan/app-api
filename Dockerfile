@@ -24,3 +24,6 @@ RUN python -m venv /py && \
 ENV PATH="/py/bin:$PATH"
 
 USER django-user
+
+#docker fix from demo mode
+
